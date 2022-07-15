@@ -1,12 +1,6 @@
 {
   "plugins": [
-    "git-tag",
-    [
-        "exec",
-        {
-            "afterChangelog": "bump2version \"$(printf '%s\n' \"$ARG_0\" | jq -r .bump)\""
-        }
-    ]
+    "git-tag"
   ],
   "owner": "ChintanpatelTH",
   "repo": "data_sdk",

@@ -1,3 +1,15 @@
+# v1.0.3 (Fri Jul 15 2022)
+
+#### 🐛 Bug Fix
+
+- fix: fix installation ([@ChintanpatelTH](https://github.com/ChintanpatelTH))
+
+#### Authors: 1
+
+- Chintan Patel ([@ChintanpatelTH](https://github.com/ChintanpatelTH))
+
+---
+
 # v1.0.2 (Fri Jul 15 2022)
 
 #### 🐛 Bug Fix

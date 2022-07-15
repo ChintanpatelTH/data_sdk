@@ -1,0 +1,9 @@
+{
+  "plugins": [
+    "git-tag"
+  ],
+  "owner": "ChintanpatelTH",
+  "repo": "data_sdk",
+  "name": "Chintan Patel",
+  "email": "chintan.patel@techholding.co"
+}

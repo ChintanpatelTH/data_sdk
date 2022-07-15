@@ -10,10 +10,15 @@ on:
 jobs:
   auto-release:
     runs-on: ubuntu-latest
-    if: "!contains(github.event.head_commit.message, 'ci skip') && !contains(github.event.head_commit.message, 'skip ci')"
+    if: "!contains(github.event.head_commit.message, 'ci skip') && !contains(github.event.head_commit.message, 'skip ci') && !contains(github.event.head_commit.message, 'Bump')"
     outputs:
       auto-version: ${{ steps.auto-version.outputs.version }}
     steps:
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install bump2version
+
       - name: Checkout source
         uses: actions/checkout@v2
         with:
@@ -43,6 +48,9 @@ jobs:
     needs: auto-release
     if: needs.auto-release.outputs.auto-version != ''
     steps:
+      - name: Bump version
+        run: bump2version {{needs.auto-release.outputs.auto-version}}
+
       - name: Get tag of latest release
         id: latest-release
         run: |

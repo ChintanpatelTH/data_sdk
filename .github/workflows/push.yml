@@ -42,7 +42,6 @@ jobs:
         id: check-version
         run: |
           echo ${{ steps.auto-version.outputs.version }}
-          bump2version ${{ steps.auto-version.outputs.version }}
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GIT_AUTHOR_NAME: "Chintan Patel"

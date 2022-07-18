@@ -45,6 +45,8 @@ jobs:
           bump2version ${{ steps.auto-version.outputs.version }}
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GIT_AUTHOR_NAME: "Chintan Patel"
+          GIT_AUTHOR_EMAIL: "chintan.patel@techolding.co"
 
       # - name: Create release
       #   run: ~/auto shipit

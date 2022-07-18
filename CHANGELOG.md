@@ -1,3 +1,20 @@
+# v1.0.7 (Mon Jul 18 2022)
+
+#### 🐛 Bug Fix
+
+- fix: update workflow ([@ChintanpatelTH](https://github.com/ChintanpatelTH))
+
+#### ⚠️ Pushed to `master`
+
+- Bump version: 2.0.2 → 2.0.3 ([@ChintanpatelTH](https://github.com/ChintanpatelTH))
+- Merge branch 'master' of github.com:ChintanpatelTH/data_sdk ([@ChintanpatelTH](https://github.com/ChintanpatelTH))
+
+#### Authors: 1
+
+- Chintan Patel ([@ChintanpatelTH](https://github.com/ChintanpatelTH))
+
+---
+
 # v1.0.6 (Mon Jul 18 2022)
 
 #### 🐛 Bug Fix

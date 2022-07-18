@@ -1,3 +1,19 @@
+# v1.0.9 (Mon Jul 18 2022)
+
+#### 🐛 Bug Fix
+
+- fix: update workflow ([@ChintanpatelTH](https://github.com/ChintanpatelTH))
+
+#### ⚠️ Pushed to `master`
+
+- Bump version: 2.0.4 → 2.0.5 ([@ChintanpatelTH](https://github.com/ChintanpatelTH))
+
+#### Authors: 1
+
+- Chintan Patel ([@ChintanpatelTH](https://github.com/ChintanpatelTH))
+
+---
+
 # v1.0.8 (Mon Jul 18 2022)
 
 #### 🐛 Bug Fix

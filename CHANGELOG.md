@@ -1,3 +1,24 @@
+# v1.0.5 (Mon Jul 18 2022)
+
+#### 🐛 Bug Fix
+
+- fix: update workflow ([@ChintanpatelTH](https://github.com/ChintanpatelTH))
+- fix: check version ([@ChintanpatelTH](https://github.com/ChintanpatelTH))
+
+#### ⚠️ Pushed to `master`
+
+- Bump version: 2.0.0 → 2.0.1 ([@ChintanpatelTH](https://github.com/ChintanpatelTH))
+- Bump version: 1.0.0 → 2.0.0 ([@ChintanpatelTH](https://github.com/ChintanpatelTH))
+- Bump version: 0.2.5 → 1.0.0 ([@ChintanpatelTH](https://github.com/ChintanpatelTH))
+- Bump version: 0.2.4 → 0.2.5 ([@ChintanpatelTH](https://github.com/ChintanpatelTH))
+- Merge branch 'master' of github.com:ChintanpatelTH/data_sdk ([@ChintanpatelTH](https://github.com/ChintanpatelTH))
+
+#### Authors: 1
+
+- Chintan Patel ([@ChintanpatelTH](https://github.com/ChintanpatelTH))
+
+---
+
 # v1.0.4 (Fri Jul 15 2022)
 
 #### 🐛 Bug Fix

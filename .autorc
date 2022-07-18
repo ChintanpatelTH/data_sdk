@@ -1,13 +1,7 @@
 {
   "plugins": [
     "git-tag",
-    "conventional-commits",
-    [
-        "exec",
-        {
-            "afterChangelog": "bump2version \"$(printf '%s\n' \"$ARG_0\" | jq -r .bump)\""
-        }
-    ]
+    "conventional-commits"
   ],
   "owner": "ChintanpatelTH",
   "repo": "data_sdk",

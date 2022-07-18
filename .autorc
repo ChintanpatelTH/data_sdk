@@ -1,7 +1,8 @@
 {
   "plugins": [
     "git-tag",
-    "conventional-commits"
+    "conventional-commits",
+    ["upload-assets", { "assets": ["./dist"] }]
   ],
   "owner": "ChintanpatelTH",
   "repo": "data_sdk",

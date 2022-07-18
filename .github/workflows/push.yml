@@ -38,10 +38,17 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Create release
-        run: ~/auto shipit
+      - name: Check version
+        id: check-version
+        run: |
+          echo ${{ steps.auto-version.outputs.version }}
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # - name: Create release
+      #   run: ~/auto shipit
+      #   env:
+      #     GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   build-and-publish:
     runs-on: ubuntu-latest
